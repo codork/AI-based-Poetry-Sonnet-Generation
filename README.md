@@ -5,8 +5,8 @@ Note: Go to the last cells for examples of outputs
 
 To try for yourself:
 
-1. Download the repo and
-2. Create model using the ```create_model()``` function below
+1. Download the repo and run all cells excepts ones marked ``` #Skip the cell ```
+2. Create model using the ```create_model()``` function 
 3. Load model weights ```model.load_weights('<folder_path>/model_2_wts.h5'```
 4. Run the last cell to generate new sonnets
 
