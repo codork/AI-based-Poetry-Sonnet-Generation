@@ -1,13 +1,14 @@
 # AI-based Poetry Sonnet Generation
 
 ### Requirements for running inference notebook - img2sonnet.ipynb
-Download repository and install following packages-
+#### Download repository and install following packages-
 - tensorflow==2.3.0
 - numpy
 - PIL
 - matplotlib
 
-Run img2sonnet.ipynb to generate new sonnets from input images.
+#### Download [this](https://drive.google.com/file/d/1Qj4XVZ6NS3_Bx9gAudmjqDdu1vJcMCU2/view?usp=sharing) model and add to AI-based-Poetry-Sonnet-Generation/caption-model/data/
+#### Run img2sonnet.ipynb to generate new sonnets from input images.
 
 ## 1. Sonnet generation from text data
 
@@ -41,6 +42,6 @@ Now train the model epochs = 100 (due to presence of unsructured data)
 
 ## 2. Sonnet generation from image data
 
-- Train image captioning model using Inception v3
+- Trained image captioning model using Inception v3 using 6000 images from the MSCOCO dataset (trained on subset of dataset due to time+compute constraints)
 - Generated captions used as input to previously trained sonnet generation model
 
