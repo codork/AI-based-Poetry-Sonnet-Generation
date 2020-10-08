@@ -45,3 +45,5 @@ Now train the model epochs = 100 (due to presence of unsructured data)
 - Trained image captioning model using Inception v3 using 6000 images from the MSCOCO dataset (trained on subset of dataset due to time+compute constraints)
 - Generated captions used as input to previously trained sonnet generation model
 
+## References
+
