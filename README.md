@@ -46,4 +46,5 @@ Now train the model epochs = 100 (due to presence of unsructured data)
 - Generated captions used as input to previously trained sonnet generation model
 
 ## References
+https://www.tensorflow.org/tutorials/text/image_captioning
 
