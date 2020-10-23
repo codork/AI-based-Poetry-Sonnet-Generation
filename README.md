@@ -1,5 +1,7 @@
 # AI-based Poetry Sonnet Generation
 
+Authors: Harshada Yesane, Poorva Bhalerao
+
 ### Requirements for running inference notebook - img2sonnet.ipynb
 ##### 1] Download repository and install following packages-
 - tensorflow==2.3.0
